@@ -94,7 +94,7 @@ def get_AQI():
     all_polutants = {
         'Ozone (03)': o3_aqi if o3_aqi else None,
         'Fine Particles (PM 2.5)' : pm25_aqi if pm25_aqi else None, 
-        'Course Particles (PM 10)' : pm10_aqi if pm10_aqi else None
+        'Coarse Particles (PM 10)' : pm10_aqi if pm10_aqi else None
     }
 
     # get the top pollutant
